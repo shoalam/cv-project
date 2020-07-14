@@ -69,6 +69,7 @@ h3 {
 header {
   background: #2F3061;
   color: #F7FFF7;
+  text-align: center;
 }
 
 .profile-img{
@@ -95,7 +96,7 @@ header {
 
 .skill-btn {
     background: #2F3061;
-    width: 115px;
+    width: 135px;
     display: inline-block;
     padding: 9px 15px;
     margin-top: 15px;
@@ -167,19 +168,10 @@ footer {
 ------------------------------------*/
 
 @media screen and (min-width:750px){
-  header, footer {
+ /* header, footer {
     text-align: center;
-  }
-  .project-item img {
-    float: left;
-    margin-right: 20px;
-  }
-
-  .job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-  }
+  }*/
+  
   .contact-list {
     display: flex;
     justify-content: center;
